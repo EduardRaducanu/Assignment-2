@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(fonts/Roboto-Black.ttf);
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+h1 {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    size: 18px;
+    display: inline-block;
+    padding: 10px;
+}
+#header-section{
+    padding: 2% 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    margin-right: 30%;
+}
+header, footer, button  {
+    background-color: #1f2937;
+    display: block;
+    color: #e5e7eb;
+}
+.main {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.main-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15% 10%;
+}
+.main-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.main-description{
+    font-size: 18px;
+    width: 450px;
+}
+button, .cta{
+    background-color: #3882F6;
+}
+.main-btn, .cta-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+.main-btn{
+    margin-top: 2.5%;
+    border: none;
+}
+.information {
+    color: #1f2937;
+}
+.information-div{
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.info-header{
+    text-align: center;
+    padding: 2.5%;
+    font-size: 36px;
+    font-weight: bold;
+    display: block;
+}
+.info-div, .square-div{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.info{
+    padding: 5px 30px;
+}
+.info-div{
+    margin: 0 22%;
+}
+.square-div{
+    padding: 0 20%;
+}
+.square{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 150px;
+    height: 150px;
+}
+
+#quote-section{
+    background-color: #e5e7eb;
+}
+.quote-div{
+    padding: 10% 25%;
+}
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+.author{
+    text-align: right;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#cta-section{
+    color: #e5e7eb;
+}
+.cta-info{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5% 20%;
+    border-radius: 10px;
+    padding: 2.5%;
+}
+.sign-up{
+    display: flex;
+    align-items: center;
+}
+.cta-btn{
+    border-color: #ffffff;
+    color: #ffffff;
+    box-shadow: none;
+    font-weight: 600;
+}
+
+footer{
+    text-align: center;
+    padding: 2.5%;
+}
