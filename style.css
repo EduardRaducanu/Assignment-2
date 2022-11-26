@@ -74,17 +74,9 @@ button, .cta{
     font-weight: bold;
     display: block;
 }
-/* .info-div, .square-div{
-    display: flex;
-    text-align: center;
-    justify-content: space-evenly;
-} */
-/* .info{
+figcaption{
     padding: 5px 30px;
 }
-.info-div{
-    margin: 0 10%;
-} */
 #square-div{
     display: flex;
     justify-content: space-evenly;
