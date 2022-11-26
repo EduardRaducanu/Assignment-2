@@ -12,15 +12,17 @@
         <div id="header-section">
             <h1 class="logo">Header Logo</h1>
             <div class="links">
+                <nav>
+                </nav>
                 <a href="#info-section">Info</a>
                 <a href="#quote-section">Quote</a>
                 <a href="#cta-section">CTA</a>
             </div>
-        </div>
-        
-    </header>  
-    <section class="main">
-        <div class="main-container">
+        </div>  
+    </header> 
+    <main>
+        <section class="main">
+            <div class="main-container">
             <div>
                 <h1 class="main-title">
                     This website is awesome
@@ -32,54 +34,57 @@
                     Sign up
                 </button>
             </div>
-            <div>
+            <figure>
                 <img src="./images/first-img.jpg" alt="black-lab-pup">
-            </div>
+            </figure>
         </div>
     </section>
-
     <section class="information" id="info-section">
         <div class="information-div">
             <h1 class="info-header">Some random information</h1>
-            <div class="square-div">
-                <p class="square"></p>
-                <p class="square"></p>
-                <p class="square"></p>
-                <p class="square"></p>
-            </div>
-            <div class="info-div">
-                <p class="info">this is some subtext under an illustration or image</p>
-                <p class="info">this is some subtext under an illustration or image</p>
-                <p class="info">this is some subtext under an illustration or image</p>
-                <p class="info">this is some subtext under an illustration or image</p>
+            <div id="square-div">
+                <figure>
+                    <img class="square" src="./images/first-img.jpg" alt="img-placeholder"></img>
+                    <figcaption class="info">this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img class="square" src="./images/first-img.jpg" alt="img-placeholder"></img>
+                    <figcaption class="info">this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img class="square" src="./images/first-img.jpg" alt="img-placeholder"></img>
+                    <figcaption class="info">this is some subtext under an illustration or image</figcaption>
+                </figure>
+                <figure>
+                    <img class="square" src="./images/first-img.jpg" alt="img-placeholder"></img>
+                    <figcaption class="info">this is some subtext under an illustration or image</figcaption>
+                </figure>
             </div>
         </div>
-    </section>
-
+    </section> 
     <section id="quote-section">
         <div class="quote-div">
-            <p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            <blockquote class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.</p>
-            <p class="author">-Lorem ipsum</p>
-        </div>
-    </section>
-
-    <section id="cta-section">
-        <div class="cta-info">
-            <div>
-                <h1>Call to action! It's time!</h1>
-                <p>Sign up for our product by clicking that button right over there!</p>
+                nisi ut aliquip ex ea commodo consequat.</blockquote>
+                <p class="author"><cite>-Lorem ipsum</cite></p>
             </div>
-            <div class="sign-up">
-                <button class="cta-btn">Sign up</button>
+        </section>
+        <section id="cta-section">
+            <div class="cta-info">
+                <div>
+                    <h1>Call to action! It's time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="sign-up">
+                    <button class="cta-btn">Sign up</button>
+                </div>
             </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>Copyright ©</p>
-    </footer>
-</body>
-</html>
+        </section>
+    </main>   
+        <footer>
+            <p>Copyright ©</p>
+        </footer>
+    </body>
+    </html>
